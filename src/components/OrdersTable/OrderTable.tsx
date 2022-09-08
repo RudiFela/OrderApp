@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import Modal from "../UI/Modal/Modal";
 import Order from "../../models/order";
 import OrderTableRows from "./OrderTableRows";
-const columns = ["Nr", "Data", "Price", "Status", "Payment", "Edit"];
+const columns = ["Nr", "Data", "Price", "Status", "Payment"];
 const OrderTable: React.FC<{ ordersData: Order[] }> = (props) => {
   return (
     <div className="overflow-x-auto m-3 relative shadow-md sm:rounded-lg">

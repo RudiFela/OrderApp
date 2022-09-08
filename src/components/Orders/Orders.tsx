@@ -24,6 +24,72 @@ const orders: Order[] = [
     "Wróblewskiego",
     ["Banana", "Apple", "Onion"]
   ),
+  new Order(
+    "21/01/2021",
+    new Date(),
+    31,
+    4,
+    false,
+    "Kamil",
+    "Lisiecki",
+    "Wróblewskiego",
+    ["Banana", "Apple", "Onion"]
+  ),
+  new Order(
+    "21/01/2021",
+    new Date(),
+    31,
+    3,
+    false,
+    "Kamil",
+    "Lisiecki",
+    "Wróblewskiego",
+    ["Banana", "Apple", "Onion"]
+  ),
+  new Order(
+    "21/01/2021",
+    new Date(),
+    31,
+    3,
+    true,
+    "Kamil",
+    "Lisiecki",
+    "Wróblewskiego",
+    ["Banana", "Apple", "Onion"]
+  ),
+  new Order(
+    "21/01/2021",
+    new Date(),
+    31,
+    3,
+    false,
+    "Kamil",
+    "Lisiecki",
+    "Wróblewskiego",
+    ["Banana", "Apple", "Onion"]
+  ),
+  new Order(
+    "21/01/2021",
+    new Date(),
+    31,
+    4,
+    false,
+    "Kamil",
+    "Lisiecki",
+    "Wróblewskiego",
+    ["Banana", "Apple", "Onion"]
+  ),
+  new Order(
+    "21/01/2021",
+    new Date(),
+    31,
+    4,
+    true,
+    "Kamil",
+    "Lisiecki",
+    "Wróblewskiego",
+    ["Banana", "Apple", "Onion"]
+  ),
 ];
 
 const Orders = () => {
